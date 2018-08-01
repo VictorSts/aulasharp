@@ -13,16 +13,7 @@ namespace Aula3107_Console
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-
-            Console.WriteLine("Digite um número:");
-            Id=int.Parse(Console.ReadLine());
-            ImprimirNumeroDigitado(Id);
             Console.ReadKey();
-        }
-
-        static void ImprimirNumeroDigitado(int num)
-        {
-            Console.WriteLine("Você digitou: " + num);
         }
     }
 }
