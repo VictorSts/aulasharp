@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // As informações gerais sobre um assembly são controladas por
 // conjunto de atributos. Altere estes valores de atributo para modificar as informações
 // associada a um assembly.
-[assembly: AssemblyTitle("Aula3107_ConsoleOperaçõesAritméticas")]
+[assembly: AssemblyTitle("Aula0208_POO")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Aula3107_ConsoleOperaçõesAritméticas")]
+[assembly: AssemblyProduct("Aula0208_POO")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // O GUID a seguir será destinado à ID de typelib se este projeto for exposto para COM
-[assembly: Guid("ae1577c5-a533-43a2-a18f-14c68451bc86")]
+[assembly: Guid("e4505fa3-ab5a-474a-8630-b015a1441f13")]
 
 // As informações da versão de um assembly consistem nos quatro valores a seguir:
 //
