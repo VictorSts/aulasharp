@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula0208_POO", "Aula0208_POO\Aula0208_POO.csproj", "{E4505FA3-AB5A-474A-8630-B015A1441F13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula0708_WPF", "Aula0708_WPF\Aula0708_WPF.csproj", "{8E6D2E95-F13F-4A68-B94F-E29A32F51C11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{E4505FA3-AB5A-474A-8630-B015A1441F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4505FA3-AB5A-474A-8630-B015A1441F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4505FA3-AB5A-474A-8630-B015A1441F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E6D2E95-F13F-4A68-B94F-E29A32F51C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6D2E95-F13F-4A68-B94F-E29A32F51C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6D2E95-F13F-4A68-B94F-E29A32F51C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6D2E95-F13F-4A68-B94F-E29A32F51C11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
