@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aula1408_EntityFramework
 {
-    /**
+    /** Conceitos
         1- O que significa ORM?
         Mapeamento Objeto-Relacional (ORM) é um framework ou conjunto de classes que cria uma ponte entre o modelo relacional e o modelo orientado a objetos, facilitando o trato com as informações a serem armazenadas ou recuperadas do banco de dados.
 
@@ -19,7 +19,9 @@ namespace Aula1408_EntityFramework
 
         4-O que é e para que serve o DbSet?
         É uma classe do pacote do Entity Framework que serve para mapear um objeto que será relacionado ao banco de dados. 
-        Usado na configuração de classe de contexto.         
+        Usado na configuração de classe de contexto.   
+        
+        Instalando Framework
      */
     public class Class1
     {
