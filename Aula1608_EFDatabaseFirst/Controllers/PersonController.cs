@@ -62,9 +62,30 @@ namespace Aula1608_EFDatabaseFirst.Controllers
             //var lista = from p in contexto.Person
             //select p; //SELECT * FROM Person
 
-
             var lista = from p in contexto.Person
                         where p.FirstName == firstName
+                        select p;
+
+            return lista.ToList();
+        }
+
+        List<Person> PesquisarPorLastName(string lastName)
+        {
+            AdventureWorks2016Entities contexto = new AdventureWorks2016Entities();
+
+            var lista = from p in contexto.Person
+                        where p.LastName == lastName
+                        select p;
+
+            return lista.ToList();
+        }
+
+        List<Person> PesquisarPorTitle(string title)
+        {
+            AdventureWorks2016Entities contexto = new AdventureWorks2016Entities();
+
+            var lista = from p in contexto.Person
+                        where p.Title == title
                         select p;
 
             return lista.ToList();
