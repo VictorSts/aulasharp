@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewWPF", "Projeto\ViewWPF.csproj", "{C93A2825-8A19-4654-A98A-61A24E4DEA29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelos", "Modelos\Modelos.csproj", "{2BC79567-AB83-4576-B60D-F6E952E5BDD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\Controllers.csproj", "{0ACF40F7-ADAF-495C-AF9A-003AF093C5A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C93A2825-8A19-4654-A98A-61A24E4DEA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93A2825-8A19-4654-A98A-61A24E4DEA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93A2825-8A19-4654-A98A-61A24E4DEA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93A2825-8A19-4654-A98A-61A24E4DEA29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC79567-AB83-4576-B60D-F6E952E5BDD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC79567-AB83-4576-B60D-F6E952E5BDD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC79567-AB83-4576-B60D-F6E952E5BDD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC79567-AB83-4576-B60D-F6E952E5BDD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ACF40F7-ADAF-495C-AF9A-003AF093C5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ACF40F7-ADAF-495C-AF9A-003AF093C5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ACF40F7-ADAF-495C-AF9A-003AF093C5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ACF40F7-ADAF-495C-AF9A-003AF093C5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C147430E-6454-497D-832C-9D690E88C276}
+	EndGlobalSection
+EndGlobal

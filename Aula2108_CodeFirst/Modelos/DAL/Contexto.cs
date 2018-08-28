@@ -6,7 +6,7 @@ namespace Aula2108_CodeFirst.Modelos.DAL
     {
         public Contexto() : base("nomeStringConexao")
         {
-
+             
         }
 
         public DbSet<Categoria> Categorias { get; set; }
