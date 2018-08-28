@@ -16,7 +16,7 @@
             <ColumnDefinition Width="2*"/>
             <ColumnDefinition Width="8*"/>
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Width="600px" Height="250px" >
+        <StackPanel Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Width="600px" Height="280px" >
             <Button Content="Button" Margin="50,10,50,30"/>
             <CheckBox Content="CheckBox"/>
             <ComboBox Width="120">
@@ -35,6 +35,17 @@
                     <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="bla bla bla"/>
                 </DataGrid.Columns>
             </DataGrid>
+            
+            <TabControl Height="40">
+                <TabItem Header="Aba 1">
+                    <Grid Background="#FFE5E5E5">
+                        <RadioButton/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Aba 2">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+            </TabControl>
 
         </StackPanel>
 
