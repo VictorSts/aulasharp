@@ -29,7 +29,7 @@
                 <ListBoxItem Content="Bla bla bla"/>
                 <ListBoxItem Content="Né né né"/>
             </ListBox>
-            <DataGrid Height="60">
+            <DataGrid Height="60" Margin="10px">
                 <DataGrid.Columns>
                     <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Test"/>
                     <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="bla bla bla"/>
