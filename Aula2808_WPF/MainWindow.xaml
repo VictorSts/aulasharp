@@ -25,10 +25,16 @@
                 <Separator/>
                 <ComboBoxItem Content="Marque esta opção"/>
             </ComboBox>
-            <ListBox Height="100">
+            <ListBox Height="60">
                 <ListBoxItem Content="Bla bla bla"/>
                 <ListBoxItem Content="Né né né"/>
             </ListBox>
+            <DataGrid Height="60">
+                <DataGrid.Columns>
+                    <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Test"/>
+                    <DataGridCheckBoxColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="bla bla bla"/>
+                </DataGrid.Columns>
+            </DataGrid>
 
         </StackPanel>
 
